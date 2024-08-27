@@ -21,11 +21,6 @@ const questions = [
     },
     {
         type: "input",
-        message: "List your project description?",
-        name: "description",
-    },
-    {
-        type: "input",
         message: "Include an installation guide.",
         name: "installation",     
     },
@@ -41,7 +36,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "List the contributions",
+        message: "List out the contributions.",
         name: "contributions",
     },
     {
