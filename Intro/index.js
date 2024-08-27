@@ -11,12 +11,12 @@ const questions = [
     },
     {
         type: "input",
-        message: "List your project description?",
+        message: "List your project description.",
         name: "description",
     },
     {
         type: "input",
-        message: "Create your table of contents",
+        message: "Create your table of contents.",
         name: "tableOfContents",
     },
     {
@@ -26,12 +26,12 @@ const questions = [
     },
     {
         type: "input",
-        message: "Usage?",
+        message: "List the usage for the project",
         name: "usage",
     },
     {
         type: "input",
-        message: "License?",
+        message: "Enter project license:",
         name: "license",
     },
     {
@@ -41,20 +41,30 @@ const questions = [
     },
     {
         type: "input",
-        message: "Tests?",
+        message: "Please include test instructions.",
         name: "tests",
     },
     {
         type: "input",
-        message: "Any Questions?",
+        message: "Do you have any questions?",
         name: "questions",
+    },
+    {
+        type: "input",
+        message: "Enter your Github username:",
+        name: "username",  
+    },
+    {
+        type: "input",
+        message: "Enter your email address:",
+        name: "email",
     }
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile('ReadMe.md', fileName, (err) =>
-        err ? console.error(err) : console.log('Success!')
+        err ? console.error(err) : console.log('Success! You have created a file.')
     )
 };
 
