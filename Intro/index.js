@@ -7,7 +7,7 @@ const questions = [
     {
         type: "input",
         message: "What is the title of your Project?",
-        name: "name",
+        name: "title",
     },
     {
         type: "input",
@@ -21,12 +21,12 @@ const questions = [
     },
     {
         type: "input",
-        message: "Include an installation guide.",
+        message: "What are the steps to install your Project?",
         name: "installation",     
     },
     {
         type: "input",
-        message: "List the usage for the project",
+        message: "Provide instructions and examples for use.",
         name: "usage",
     },
     {
@@ -36,12 +36,12 @@ const questions = [
     },
     {
         type: "input",
-        message: "List out the contributions.",
+        message: "List your collaborators and give credits to resources utilized.",
         name: "contributions",
     },
     {
         type: "input",
-        message: "Please include test instructions.",
+        message: "Please include test instructions and examples on how to run them.",
         name: "tests",
     },
     {
