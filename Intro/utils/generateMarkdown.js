@@ -46,7 +46,6 @@ ${response.description}
 ${response.installation}
 ### Usage
 ${response.usage}
-### License
 ${renderLicenseSection(response.license)}
 ### Contributions
 ${response.contributions}
@@ -54,9 +53,9 @@ ${response.contributions}
 ${response.tests}
 ### Questions
 ${response.questions}
-### Github Username
+### Username
 ${response.username}
-### Email Address
+### Email
 ${response.email}
 `;
 }
